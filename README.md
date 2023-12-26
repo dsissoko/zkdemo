@@ -17,7 +17,7 @@ application.properties:
 AppControler.java:
 - only one mapping to @RequestMapping("/secure/*")
 
-SecurityConfig.java: Its the configuration ofr Pac4j im struggling with:
+SecurityConfig.java: Its the configuration for Pac4j im struggling with:
 - i create an PAC4J OIDC client
 - i secure my URL
 
@@ -25,7 +25,7 @@ but at run time i get OKTA error:
 
 ![Alt text](okta-error.PNG "Oka error")
 
-It claims about soem REDIRECT URI parameter not present in the client settings....
+It claims about some REDIRECT URI parameter not present in the client settings....
 
 At the Okta admin part, i use my "always free" test account with the following setup:
 
